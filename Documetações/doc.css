@@ -1,0 +1,31 @@
+/* estilos.css */
+
+body {
+    font-family: "Jersey 15", sans-serif;
+    background-color: #000000;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(55, 132, 0);
+}
+
+hr {
+    max-width: 60%; /* Defina a largura máxima desejada */
+    margin: 0 auto;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(55, 132, 0);
+}
+
+img {
+    border-radius: 16px;
+}
+
+.jersey-15-regular {
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }

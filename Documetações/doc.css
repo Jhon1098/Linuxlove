@@ -4,10 +4,11 @@ body {
     font-family: "Jersey 15", sans-serif;
     background-color: #000000;
     text-align: center;
+    color: rgb(55, 132, 0);
 }
 
-h1 {
-    color: rgb(55, 132, 0);
+li {
+    text-align: initial;
 }
 
 hr {

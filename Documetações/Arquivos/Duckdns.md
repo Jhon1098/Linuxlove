@@ -1,4 +1,4 @@
-# [Duckdns.org](https://www.duckdns.org)
+# [<img src="https://brands.home-assistant.io/_/duckdns/logo.png" height="40">](https://www.duckdns.org)
 
 Uma ótima altenativa para você que deseja tem um dominio válido para gerar certificado SSL sem gasta um real.
 

@@ -1,4 +1,4 @@
-# [<img src="https://seeklogo.com/images/T/tailscale-logo-86A0B25127-seeklogo.com.png" width="" height="25">](https://tailscale.com)
+# [<img src="https://seeklogo.com/images/T/tailscale-logo-86A0B25127-seeklogo.com.png" height="25">](https://tailscale.com)
 
 
 Ótima VPN com zero configurações.

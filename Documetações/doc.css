@@ -12,7 +12,7 @@ li {
 }
 
 hr {
-    max-width: 60%; /* Defina a largura máxima desejada */
+    max-width: 100%; /* Defina a largura máxima desejada */
     margin: 0 auto;
 }
 

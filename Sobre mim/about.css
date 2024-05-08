@@ -2,22 +2,19 @@
 
 body {
     font-family: "Jersey 15", sans-serif;
+    font-size: 20px;
     background-color: #000000;
     text-align: center;
-}
-
-h1 {
     color: rgb(55, 132, 0);
 }
 
 hr {
-    max-width: 60%; /* Defina a largura máxima desejada */
+    max-width: 100%;
     margin: 0 auto;
 }
 
 p {
     font-size: 20px;
-    color: rgb(55, 132, 0);
 }
 
 img {

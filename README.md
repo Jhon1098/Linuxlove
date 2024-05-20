@@ -1,4 +1,4 @@
-# Meu-site 🎉
+# Linux Love 🎉
 
 Esse projeto em que estou trabalhando é uma forma de compartilhar meus pensamentos, estudos e experiências com todos aqueles que estiverem interessados.
 

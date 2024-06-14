@@ -99,7 +99,7 @@ Orações:
 
 Ao final das três semanas preparatórias, após realizar um bom exame de consciência, seguido da Confissão, e participar da Santa Comunhão, você poderá recitar o ato de consagração a Jesus por meio de Maria, como escravo de amor — realizando assim a sua consagração. 
 
-Ato de Consagração a Nossa Senhora:
+**Ato de Consagração a Nossa Senhora:**
 
 Ó Sabedoria Eterna e Encarnada! Ó amabilíssimo e adorável Jesus, verdadeiro Deus e verdadeiro homem, Filho único do Pai Eterno e de Maria sempre Virgem!
 

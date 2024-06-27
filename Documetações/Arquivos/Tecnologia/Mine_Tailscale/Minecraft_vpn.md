@@ -20,7 +20,7 @@ Nessa documentação irei usar o [Debian](www.debian.org) 12, se você queira us
 **2. Instalando o Docker**
 
 1. Primeiro instale os repositorios e a chave GPG.
-```
+``````
  # Add Docker's official GPG key:
  sudo apt-get update
  sudo apt-get install ca-certificates curl
@@ -34,18 +34,19 @@ Nessa documentação irei usar o [Debian](www.debian.org) 12, se você queira us
   $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
  sudo apt-get update
-```
+``````
 
 2. Depois instale o docker em si.
 
-```
+``````
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-```
+``````
 
 3. Por final verifique se ele foi instalado com sucesso rodando esse comando:
-```
+``````
 sudo docker run hello-world
-``` 
+`````` 
+
 Se tudo ocorreu como deveria podemos passar para a próxima parte.
 
 **3. Criando um Conta no Tailscale e Microsoft**
@@ -66,7 +67,7 @@ OBS: Você pode até mesmo usar a própria conta da Microsoft para fazer login n
 **Tailscale:**
 
 Vamos usar um modelo já pronto para agilizar o processo:
-```
+``````
 services:
     "Name":
         image: tailscale/tailscale:latest
@@ -82,7 +83,7 @@ services:
           - net_admin
           - sys_module
         restart: unless-stopped
-```
+``````
 
 Nesse arquivo só basta mudar aonde estão as aspa (""), mude o "Name" para o nome que você quiser, o "tskey-auth-" pela chave de acesso (Mostrarei daqui a pouco) e "Volumes" pelo o local onde você quer deixar armazenados os seu dados.
 
@@ -104,7 +105,7 @@ Essa chave será usada apenas para a autorização do servidor para se conectar 
 **Minecraft**
 
 Vamos usar um modelo já pronto para agilizar o processo:
-```
+``````
 services:
     "Name":
         container_name: "Name"
@@ -117,7 +118,7 @@ services:
         image: itzg/minecraft-bedrock-server
         volumes:
             - "/volume/minecraft/data":/data
-```
+``````
 
 Nesse arquivo só basta mudar aonde estão as aspa (""), mude o "Name" para o nome que você quiser e "Volumes" pelo o local onde você quer deixar armazenados os seu dados.
 

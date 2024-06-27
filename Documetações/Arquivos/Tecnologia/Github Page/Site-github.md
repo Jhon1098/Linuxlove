@@ -99,3 +99,6 @@ Após fazer todas as configurações, pode levar um tempo até que as alteraçõ
 Depois que a propagação do DNS estiver completa, teste acessando seu site usando o domínio personalizado para garantir que tudo esteja funcionando corretamente.
 
 🎉 **Agora você tem seu próprio site sem gastar quase nada.**  🎉
+
+#
+### [<img src="https://avatars.githubusercontent.com/u/93058539?v=4" height="50" style="border-radius: 30%">](https://github.com/Jhon1098) **Escrito com ❤️ por Jhon1098** 

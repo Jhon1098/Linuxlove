@@ -120,3 +120,6 @@ Você está conectado! Você pode encontrar seu endereço IPv4 Tailscale executa
 ##
 
 Mais informações clique [aqui](https://tailscale.com/kb) (Contéudo em inglês).
+
+#
+### [<img src="https://avatars.githubusercontent.com/u/93058539?v=4" height="50" style="border-radius: 30%">](https://github.com/Jhon1098) **Escrito com ❤️ por Jhon1098** 

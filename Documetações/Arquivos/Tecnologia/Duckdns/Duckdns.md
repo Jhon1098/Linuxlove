@@ -22,3 +22,6 @@ Tadam 🎉 Seu dominio está pronto.
 Ressaltando que por essa plataforma ser gratuita existira um limite de quantos subdominios poderão ser criados ( são um limite de 5 por cada conta ), mas se o intuito deles é para homelab, por exemplo, isso já será suficiente.
 
 Lembrando que ser seu intuito seja para uso profissional recomendo que compre um dominio próprio.
+
+#
+### [<img src="https://avatars.githubusercontent.com/u/93058539?v=4" height="50" style="border-radius: 30%">](https://github.com/Jhon1098) **Escrito com ❤️ por Jhon1098** 

@@ -141,3 +141,5 @@ Eu protesto querer daqui por diante, como vosso verdadeiro escravo, procurar vos
 **Referências**
 * [Minha Biblioteca Católica](https://bibliotecacatolica.com.br/blog/formacao/tratado-da-verdadeira-devocao/)
 
+#
+### [<img src="https://avatars.githubusercontent.com/u/93058539?v=4" height="50" style="border-radius: 30%">](https://github.com/Jhon1098) **Escrito com ❤️ por Jhon1098** 

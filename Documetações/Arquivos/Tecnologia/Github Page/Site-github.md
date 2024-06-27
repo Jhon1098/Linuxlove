@@ -1,7 +1,7 @@
 # Criando um site com Github
 
  Nesse guia vou mostrar como você pode criar uma site "simples" sem gasta quase nada.
-#
+___
 
 ### 1. Criando sua conta
 
@@ -21,7 +21,9 @@ Nomeie o repositório, por exemplo "Meu site". Marque a opção "Initialize this
 
 Abra o terminal ou prompt de comando no seu computador e clone o repositório recém-criado usando o comando:
 
-``git clone https://github.com/seu_nome_de_usuário/Seu_repositório.git``
+```bash
+git clone https://github.com/seu_nome_de_usuário/Seu_repositório.git
+```
 
 ### 4. Crie seu Site:
 
@@ -33,7 +35,7 @@ Lembrando que pode ser feito tanto direto do seu computador pessoal quanto do pr
 
 No terminal, navegue até o diretório do repositório clonado e adicione, faça o commit e faça o push dos arquivos para o repositório usando os seguintes comandos:
 
-```
+```bash
 git add .
 git commit -m "Adicionando meu site"
 git push origin master
@@ -57,7 +59,7 @@ Após ativar o GitHub Pages e salvar as configurações, seu site estará dispon
 
 **Tadam 🎉 Seu site está criado.**
 
-# 
+___ 
 
 # Usando um Dominio personalizado
 
@@ -77,7 +79,7 @@ Crie um registro CNAME apontando o seu domínio personalizado para <seu_nome_de_
 
 Se você for usar o Duckdns, basta adicionar o Ip do github no lugar de "ip address":
 
-![](/Documetações/Arquivos/Github%20Page/Imagens/Gitpages_6.png)
+![Gitpages_6](/Documetações/Arquivos/Github%20Page/Imagens/Gitpages_6.png)
 
 Lista de ips [aqui](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 
@@ -100,5 +102,6 @@ Depois que a propagação do DNS estiver completa, teste acessando seu site usan
 
 🎉 **Agora você tem seu próprio site sem gastar quase nada.**  🎉
 
-#
+___
+
 ### [<img src="https://avatars.githubusercontent.com/u/93058539?v=4" height="50" style="border-radius: 30%">](https://github.com/Jhon1098) **Escrito com ❤️ por Jhon1098** 

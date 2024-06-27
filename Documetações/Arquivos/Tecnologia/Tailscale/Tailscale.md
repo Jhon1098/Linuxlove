@@ -25,15 +25,21 @@ Vou deixar um guia rápido para cada dispositivo suportado.
 
 Instale com um comando:
 
-`curl -fsSL https://tailscale.com/install.sh | sh`
+```bash
+curl -fsSL https://tailscale.com/install.sh | sh
+```
 
 Conecte sua máquina à rede Tailscale e autentique em seu navegador:
 
-`sudo tailscale up`
+```bash
+sudo tailscale up
+```
 
 Você está conectado! Você pode encontrar seu endereço IPv4 Tailscale executando:
 
-`tailscale ip -4`
+```bash
+tailscale ip -4
+```
 
 * **Android**
 
@@ -49,7 +55,7 @@ Você está conectado! Você pode encontrar seu endereço IPv4 Tailscale executa
 
 * **MacOS**
 
-1. Baixe e abra o aplicativo Tailscale [macOS](https://apps.apple.com/ca/app/tailscale/id1475387142?mt=12) na App Store ou usando a ferramenta `mas` CLI
+1. Baixe e abra o aplicativo Tailscale [macOS](https://apps.apple.com/ca/app/tailscale/id1475387142?mt=12) na App Store ou usando a ferramenta ```mas``` CLI
 2. Siga o fluxo de integração do Tailscale, que o guiará na instalação da configuração do Tailscale VPN
 3. Faça login com a sua conta
 
@@ -117,9 +123,10 @@ Você está conectado! Você pode encontrar seu endereço IPv4 Tailscale executa
 8. Siga as instruções adicionais para configurar o nó de saída, se necessário.
 9. Depois de configurado, seu dispositivo iOS funcionará como um nó de saída na rede Tailscale.
 
-##
+___
 
 Mais informações clique [aqui](https://tailscale.com/kb) (Contéudo em inglês).
 
-#
+___
+
 ### [<img src="https://avatars.githubusercontent.com/u/93058539?v=4" height="50" style="border-radius: 30%">](https://github.com/Jhon1098) **Escrito com ❤️ por Jhon1098** 

@@ -6,8 +6,6 @@ Segundo São Luiz Maria Grignion de Montfort
 
 Que você já conhece Nossa Senhora isso eu não posso duvidar, já que há tantos titulos que são carinhosamente atribuidos a Ela, por exemplo, Nossa Senhora Aparecida, de Fátima, La Salette, do Carmo, entre outros. 
 
-
-
 Mas venho expor uma verdade, **``Nossa Senhora não é conhecida o suficiente``** e por esse motivo **``Nosso Senhor Jesus Cristo não é Louvado, Adorado e Respeitado como deve ser.``** Pois como afirmar São Luiz em seu livro do Tratado da Verdadeira Devoção à Santíssima Virgem, nos mostrar que **"[...] Maria Santíssima tem sido, até aqui, desconhecida , e que é esta uma das razões por que Jesus Cristo não é conhecido como deve ser."**, e afimar mais uma coisa **"Quando, portanto, e é certo, o conhecimento e o reino de Jesus Cristo tomarem o mundo, será uma conseqüência necessária do conhecimento e do reino da Santíssima Virgem Maria. ``Ela o deu ao mundo a primeira vez, e também, da segunda, o fará resplandecer.`` "**
 
 Voltando ao primeiro parágrafo, São Luiz nos mostra todo o alicece de sua maior obra, dizendo **"``Foi pela Santíssima Virgem Maria que Jesus Cristo veio ao mundo, e é também por Ela que Ele deve reinar no mundo.``"**, por esse motivo nos deixemo ser tranformado pelas mão maternas de nossa Bela Mãe, e que sendo agraciados com suas bençãos podemos chegar mais perto de nosso Senhor Jesus Cristo.
@@ -137,9 +135,10 @@ Eu protesto querer daqui por diante, como vosso verdadeiro escravo, procurar vos
 
 Ó Virgem fiel, tornai-me em todas as coisas um tão perfeito discípulo, imitador e escravo da Sabedora Encarnada, Jesus Cristo, vosso Filho, que eu chegue por vossa intercessão e a exemplo vosso à plenitude de sua idade na terra e de sua glória nos céus. Amém.
 
-#
+___
 **Referências**
 * [Minha Biblioteca Católica](https://bibliotecacatolica.com.br/blog/formacao/tratado-da-verdadeira-devocao/)
 
-#
+___
+
 ### [<img src="https://avatars.githubusercontent.com/u/93058539?v=4" height="50" style="border-radius: 30%">](https://github.com/Jhon1098) **Escrito com ❤️ por Jhon1098** 

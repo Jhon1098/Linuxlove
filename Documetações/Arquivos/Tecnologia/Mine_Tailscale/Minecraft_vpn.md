@@ -3,6 +3,7 @@
 
 Mostrarei como você pode criar um servidor de minecraft auto-hospedado em sua casa e pode jogar com seus amigos de qualquer lugar do mundo sem abrir portas na sua rede e com muito mais segurança e diversão.
 
+
 ## Requisitos
 
 1. Um computador (Não precisar ser um mega pc)
@@ -143,6 +144,10 @@ Após ter conseguindo fazer os containers rodarem:
 Se tudo ocorre como deveria, agora você tem um servidor de Minecraft para poder jogar da onde você quiser. 🎉 
 
 Para poder jogar com seus amigos é só compartilhar a conexão do Tailscale com eles. Tanto passando sua conta para eles (Método não tão seguro) ou adicionar eles por meio dos conviter da Tailscale (Mais seguro), na opção "User" e "Invite users", enviando o convite via e-mail ou por um link. Para eles se conectarem por meio desse link basta eles também terem uma conta no Tailscale. Esse método depende de qual plano do Tailscale você usa, se for o plano grátis você só pode adicionar até três contas, a partir do plano "Starter" você tem usuários ilimitado.
+
+___
+
+**Obs: A versão ultilizada aqui é a bedrock**
 
 ___
 

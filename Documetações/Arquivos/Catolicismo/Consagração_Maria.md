@@ -93,6 +93,8 @@ Orações:
 * Ladainha do Sagrado Coração de Jesus;
 * Oração de Santo Agostinho.
 
+___
+
 ### Dia da Consagração
 
 Ao final das três semanas preparatórias, após realizar um bom exame de consciência, seguido da Confissão, e participar da Santa Comunhão, você poderá recitar o ato de consagração a Jesus por meio de Maria, como escravo de amor — realizando assim a sua consagração. 

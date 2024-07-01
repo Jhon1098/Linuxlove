@@ -24,3 +24,18 @@ p {
     font-weight: 400;
     font-style: normal;
   }
+
+/*_____Bolinhas de listas_____*/
+.text-space>ul {
+    padding: 0;
+    list-style-type: disc;
+}
+
+.text-space>ul>li {
+    list-style-position: inside;
+}
+
+.text-space>ul>li::marker {
+    color: rgb(129, 118, 186);
+}
+/*_____________________________*/

@@ -5,14 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="mark.css">
   <title>Texto Expansível em HTML</title>
-<!--   <style>
+<!--<style>
     .collapsed {
       display: none;
     }
-  </style>
+  </style> !-->
+
 </head>
 <body>
--->
+
 <h2>Texto Compactado</h2>
 
 <button onclick="toggleText()" class="arrow"></button>

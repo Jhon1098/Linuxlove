@@ -1,0 +1,17 @@
+body {
+    color: brown;
+}
+
+.collapsed {
+    display: none;
+  }
+
+.arrow::after {
+    content: '\25B6'; /* Unicode para seta para a direita */
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.arrow.collapsed::after {
+    content: '\25BC'; /* Unicode para seta para baixo */
+  }

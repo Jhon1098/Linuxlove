@@ -14,4 +14,6 @@ body {
 
 .arrow.collapsed::after {
     content: '\25BC'; /* Unicode para seta para baixo */
+    display: inline-block;
+    margin-left: 5px;
   }

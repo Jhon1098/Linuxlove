@@ -16,7 +16,7 @@
 
 <h2>Texto Compactado</h2>
 
-<button onclick="toggleText()" class="arrow"></button>
+<button onclick="toggleText()" class="arrow">![alt text](seta-down.png)</button>
 
 <div id="expandable-text">
   <p>Este é o texto que será compactado inicialmente. Para ver mais, clique no botão acima.</p>

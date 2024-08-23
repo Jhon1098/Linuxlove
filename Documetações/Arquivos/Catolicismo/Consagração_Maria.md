@@ -95,9 +95,19 @@ Orações:
 
 ___
 
+
 ### Dia da Consagração
 
+
 Ao final das três semanas preparatórias, após realizar um bom exame de consciência, seguido da Confissão, e participar da Santa Comunhão, você poderá recitar o ato de consagração a Jesus por meio de Maria, como escravo de amor — realizando assim a sua consagração. 
+
+Recapitulando:
+
+- Você deve estar devidamente confessado ( pode se confessar antes da missa ou um dia antes, na intenção de se consagrar à Jesus por meio de Maria.).
+- Participar da Santa Missa.
+- Comungar na intenção de se consagrar à Jesus por meio de Maria.
+- Recitar a Fórmula de Consagração.
+
 
 **Ato de Consagração a Nossa Senhora:**
 

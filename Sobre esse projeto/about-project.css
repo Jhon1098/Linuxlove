@@ -7,6 +7,8 @@ body {
     background-color: hsl(0, 0%, 0%);
     text-align: center;
     color: rgb(55, 132, 0);
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 
@@ -18,9 +20,17 @@ hr {
 p {
     font-size: 20px;
 }
+iframe {
+    background-color: rgba(255, 255, 255, 0.397);
+    border-radius: 20px;
+}
 
 .jersey-15-regular {
     font-family: "Jersey 15", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
+
+.hidden {
+    display: none;
+}

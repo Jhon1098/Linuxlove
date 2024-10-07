@@ -9,14 +9,22 @@ body {
     color: rgb(55, 132, 0);
 }
 
-
 hr {
     max-width: 60%; /* Defina a largura máxima desejada */
     margin: 0 auto;
 }
 
+li {
+    background: linear-gradient(to right, #ffffff 50%, #ffea00 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
 p {
     font-size: 20px;
+    background: linear-gradient(to right, #ffffff 50%, #ffea00 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .jersey-15-regular {
@@ -39,3 +47,9 @@ p {
     color: rgb(129, 118, 186);
 }
 /*_____________________________*/
+
+.cores {
+    background: linear-gradient(to right, #ffffff 50%, #ffea00 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}

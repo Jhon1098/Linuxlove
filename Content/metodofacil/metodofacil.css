@@ -19,6 +19,9 @@ hr {
 
 p {
     font-size: 20px;
+    background: linear-gradient(to right, #ffffff 50%, #ffea00 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .jersey-15-regular {
@@ -26,3 +29,9 @@ p {
     font-weight: 400;
     font-style: normal;
   }
+
+.cores {
+    background: linear-gradient(to right, #ffffff 50%, #ffea00 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}

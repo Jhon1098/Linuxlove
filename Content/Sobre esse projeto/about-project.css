@@ -19,6 +19,9 @@ hr {
 
 p {
     font-size: 20px;
+    background: linear-gradient(to right, #ffffff 50%, #ffea00 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 iframe {
     background-color: rgba(255, 255, 255, 0.397);
@@ -33,4 +36,10 @@ iframe {
 
 .hidden {
     display: none;
+}
+
+.cores {
+    background: linear-gradient(to right, #ffffff 50%, #ffea00 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
 }

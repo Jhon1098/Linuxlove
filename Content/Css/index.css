@@ -2,13 +2,26 @@
 
 
 body {
-    font-family: "Jersey 15", sans-serif;
+    font-family: 'Jersey-15', sans-serif;
     font-size: 24px;
     background-color: hsl(0, 0%, 0%);
     text-align: center;
     /*color: rgb(55, 132, 0);*/
+    
 }
 
+.cores {
+    background: linear-gradient(to right, #ffffff 50%, #ffea00 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+@font-face {
+    font-family: 'Jersey-15';
+    src: url('Content/Fonts/Jersey15-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
 
 hr {
     max-width: 60%; /* Defina a largura máxima desejada */
@@ -26,22 +39,45 @@ iframe {
     border-radius: 20px;
 }
 
-.jersey-15-regular {
-    font-family: "Jersey 15", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+/*---------TUX---------*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Remove margens padrão */
+}
 
 .tux {
     position: var(auto);
+    align-items: center;
     right: 0;
     bottom: 0;
     width: 80x;
     height: 128px;
+    margin-right: 0px;
 }
 
-.cores {
-    background: linear-gradient(to right, #ffffff 50%, #ffea00 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent
+.fala-tux {
+    color: white;
+    max-width: 220px;
+    height: 15px;  
+    border: 3px solid #ffffff; /* Borda ao redor do balão */ 
+    border-radius: 10px 10px 10px 0; /* Cantos arredondados */  
+    padding: 2px 5px 15px 5px; /* Aumenta o espaço interno */ 
+    width: 300px; /* Ajuste o tamanho conforme necessário */
+    transform: translateY(-60px);
 }
+
+.fala-tux::after {
+    content: '';
+    position: absolute;
+    bottom: -27px; /* Posiciona o triângulo acima do balão */
+    left: 3px; /* Ajuste a posição para ficar mais perto do balão */
+    border-width: 10px; /* Tamanho do triângulo */
+    border-style: solid;
+    border-color: transparent transparent #ffffff transparent; /* Cores do triângulo */
+    margin-left: 0; /* Remove ajuste */
+    transform: rotate(135deg) translateY(+20px) ; /* Rotaciona para apontar para o canto inferior esquerdo */
+}
+/*_______________________________*/
+

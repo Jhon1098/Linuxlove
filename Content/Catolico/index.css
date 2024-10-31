@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+/*---------Titulo---------*/
+.titulo {
+    text-align: center;
+    font-family: 'great-vibes', cursive ;
+    font-style: normal;
+    font-size: 80px;
+    background: linear-gradient(to right, #ffffff 50%, #ffea00 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+  
+@font-face {
+    font-family: 'great-vibes';
+    src: url('Fonts/GreatVibes-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*_______________________________*/
+
+/*---------Planos de Fundo---------*/
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(Imagens/Adoration-Blessed-Sacrament.jpg); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.2s ease; /* Suaviza a transição */
+    z-index: -1; /* Coloca a imagem atrás do conteúdo */
+}
+
+.background2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(Imagens/Jesus-misericordia.png);
+    background-size: cover;
+    background-position: center;
+    z-index: -2; /* Coloca a imagem atrás do conteúdo */
+}
+/*_______________________________*/
+
+/*---------Config dos Box---------*/
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as divs se movam para a próxima linha */
+    justify-content: space-between;
+    position: relative;
+    padding: 20px;
+}
+
+.box {
+    width: 40%;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-direction: column;     /*Para colocar a fonte na parte de baixo*/
+    justify-content: flex-end;  /*<---*/
+}
+/*_______________________________*/
+
+/*---------Lado Esquerdo---------*/
+.img-left {
+    color: rgba(255, 255, 255, 0.575);
+    margin-right: 20px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 250px;
+}
+
+.text {
+    padding-left: 10px; /* Espaço entre a imagem e o texto */
+    color: #000000; /* Cor do texto */
+    max-width: 400px; /* Define uma largura máxima para o texto */
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
+    border-radius: 8px;
+    margin-left: 0px;
+}
+
+.sagrada-familia-img {
+    background-image: url(Imagens/Sagrada-Familia.jpg);
+    width: 250px;
+    height: 260px;
+}
+
+.sao-francisco-img {
+    background-image: url(Imagens/Sao-francisco-edit.jpeg);
+    width: 245px;
+    height: 380px;
+}
+
+.sagrada-familia {
+    width: 400px;
+    height: 340px;
+}
+
+.Magnificat {
+    width: 400px;
+    height: 340px;
+}
+/*_______________________________*/
+
+
+/*---------Lado direito---------*/
+.img-right {
+    color: rgba(255, 255, 255, 0.575);
+    margin-right: 0px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 250px;
+}
+
+.Magnificat-img {
+    width: 250px;
+    height: 400px;
+    background-image: url(Imagens/Nossa-senhora.jpeg);
+}
+
+.divina-misericodia-img {
+    width: 250px;
+    height: 300px;
+    background-image: url(Imagens/jesus-misericordioso.jpg);
+}
+
+.divina-misericodia {
+    width: 300px;
+    height: 290px;
+}
+
+.sao-francisco {
+    width: 400px;
+    height: 320px;
+}    
+
+.content {
+    padding: 20px;
+    margin-top: 200px; /* Para não sobrepor com os bloquinhos */
+    background-color: rgba(255, 255, 255, 0.54);
+    border-radius: 16px;
+}
+
+.alma-de-cristo {
+    color: rgb(199, 44, 44);
+}
+/*_______________________________*/
+
+/*---------Telas menores---------*/
+@media (max-width: 1350px) {
+    .container {
+        flex-direction: column; /* Alinha as divs verticalmente */
+        align-items: flex-start; /* Alinha o conteúdo à esquerda */
+        margin-bottom: 10px;
+    }
+
+    .image-min {
+        width: 250px; /* Imagem ocupa toda a largura */
+        height: 250; /* Defina a altura conforme necessário */
+        margin-bottom: 10px;
+    }
+
+    .text-min {
+        padding-left: 0; /* Remove o espaçamento */
+        max-width: 100%; /* Ajusta a largura do texto */
+        margin-top: 10px;
+    }
+}
+/*_______________________________*/
+
+
+/*---------Cor do Link---------*/
+a {
+    color: inherit; /* Herda a cor do elemento pai */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+a:visited {
+    color: inherit; /* Herda a cor do elemento pai para links visitados */
+}
+
+a:hover {
+    color: inherit; /* Herda a cor do elemento pai ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse, se desejado */
+}
+
+a:active {
+    color: inherit; /* Herda a cor do elemento pai quando clicado */
+}
+/*_______________________________*/
+
+
+
+
+.texto-se-caso-precisar {
+    padding-left: 10px; /* Espaço entre a imagem e o texto */
+    max-width: 400px; /* Define uma largura máxima para o texto */
+    color: #000000; /* Cor do texto */
+    width: 400px;
+    height: 340px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
+    border-radius: 8px;
+    margin-right: 0px;
+}

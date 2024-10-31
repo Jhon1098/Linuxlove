@@ -21,7 +21,7 @@ body {
 
 @font-face {
     font-family: 'Jersey';
-    src: url('Content/Fonts/Jersey15-Regular.ttf') format('truetype');
+    src: url('/Content/Fonts/Jersey15-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

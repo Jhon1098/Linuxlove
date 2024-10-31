@@ -190,23 +190,22 @@ body {
     }
     
     .sagrada-familia-min {
-        width: 400px;
+        width: 450px;
         height: 340px;
     }
     
     .Magnificat-min {
-        width: 400px;
+        width: 450px;
         height: 340px;
     }
 
     .divina-misericodia-min {
-        width: 300px;
+        width: 330px;
         height: 290px;
-        max-width: 330px;
     }
     
     .sao-francisco-min {
-        width: 400px;
+        width: 450px;
         height: 320px;
     }    
 }

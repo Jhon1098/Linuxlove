@@ -148,6 +148,7 @@ body {
 .divina-misericodia {
     width: 300px;
     height: 290px;
+    max-width: 330px;
 }
 
 .sao-francisco {

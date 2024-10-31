@@ -1,13 +1,10 @@
 /* estilos.css */
 
-
 body {
-    font-family: 'Jersey-15', sans-serif;
+    font-family: 'Jersey', sans-serif;
     font-size: 24px;
     background-color: hsl(0, 0%, 0%);
     text-align: center;
-    /*color: rgb(55, 132, 0);*/
-    
 }
 
 .cores {
@@ -16,10 +13,16 @@ body {
     -webkit-text-fill-color: transparent
 }
 
+.Jersey {
+    font-family: 'Jersey';
+    font: 400;
+    font-style: normal;
+}
+
 @font-face {
-    font-family: 'Jersey-15';
+    font-family: 'Jersey';
     src: url('Content/Fonts/Jersey15-Regular.ttf') format('truetype');
-    font-weight: 400;
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -29,6 +32,7 @@ hr {
 }
 
 p {
+    font-family: 'Jersey';
     font-size: 20px;
     background: linear-gradient(to right, #ffffff 50%, #ffea00 50%);
     -webkit-background-clip: text;

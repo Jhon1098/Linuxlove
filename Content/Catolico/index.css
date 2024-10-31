@@ -186,6 +186,7 @@ body {
         padding-left: 0; /* Remove o espaçamento */
         max-width: 100%; /* Ajusta a largura do texto */
         margin-top: 10px;
+        width: 350px;
     }
 }
 /*_______________________________*/

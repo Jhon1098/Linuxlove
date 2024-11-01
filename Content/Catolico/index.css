@@ -13,7 +13,11 @@ body {
 .site-conteudo {
     width: auto;
     height: auto;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;     /*Para colocar a fonte na parte de baixo*/
+    justify-content: flex-end;  /*<---*/
 }
 
 /*---------Titulo---------*/
@@ -140,7 +144,7 @@ body {
 }
 
 .Magnificat-img {
-    width: 250px;
+    width: 240px;
     height: 400px;
     background-image: url(Imagens/Nossa-senhora.jpeg);
 }

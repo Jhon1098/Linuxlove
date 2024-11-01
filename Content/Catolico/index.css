@@ -10,6 +10,12 @@ body {
     background-color: black;
 }
 
+.site-conteudo {
+    width: auto;
+    height: auto;
+
+}
+
 /*---------Titulo---------*/
 .titulo {
     text-align: center;
@@ -168,49 +174,6 @@ body {
 }
 /*_______________________________*/
 
-/*---------Telas menores---------*/
-@media (max-width: 1350px) {
-    .container {
-        flex-direction: column; /* Alinha as divs verticalmente */
-        align-items: flex-start; /* Alinha o conteúdo à esquerda */
-        margin-bottom: 10px;
-    }
-
-    .image-min {
-        width: 250px; /* Imagem ocupa toda a largura */
-        height: 250; /* Defina a altura conforme necessário */
-        margin-bottom: 10px;
-    }
-
-    .text-min {
-        padding-left: 0; /* Remove o espaçamento */
-        max-width: 100%; /* Ajusta a largura do texto */
-        margin-top: 10px;
-        width: 450px;
-    }
-    
-    .sagrada-familia-min {
-        width: 450px;
-        height: 365px;
-    }
-    
-    .Magnificat-min {
-        width: 450px;
-        height: 350px;
-    }
-
-    .divina-misericodia-min {
-        width: 330px;
-        height: 290px;
-    }
-    
-    .sao-francisco-min {
-        width: 450px;
-        height: 330px;
-    }    
-}
-/*_______________________________*/
-
 
 /*---------Cor do Link---------*/
 a {
@@ -232,6 +195,37 @@ a:active {
 }
 /*_______________________________*/
 
+/*---------Telas menores---------*/
+
+
+/* Telas pequenas */
+@media (max-width: 600px) {
+    .site-conteudo {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+}
+
+/* Telas médias */
+@media (min-width: 601px) and (max-width: 1000px) {
+    .site-conteudo {
+        width: 80%;
+        height: auto;
+        padding: 10px;
+    }
+}
+
+/* Telas grandes */
+@media (min-width: 1080px) {
+    .site-conteudo {
+        width: auto;
+        height: auto;
+        padding: 10px;
+    }
+}
+
+/*_______________________________*/
 
 
 

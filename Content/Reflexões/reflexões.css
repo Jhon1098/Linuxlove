@@ -2,7 +2,7 @@
 
 
 body {
-    font-family: "Jersey 15", sans-serif;
+    font-family: "Jersey", sans-serif;
     font-size: 24px;
     background-color: hsl(0, 0%, 0%);
     text-align: center;
@@ -24,11 +24,22 @@ p {
     -webkit-text-fill-color: transparent;
 }
 
-.jersey-15-regular {
-    font-family: "Jersey 15", sans-serif;
+/*Fontes*/
+
+.Jersey {
+    font-family: 'Jersey';
+    font: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jersey';
+    src: url('Fonts/Jersey15-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
-  }
+}
+
+/*_____________________________*/
 
 .cores {
     background: linear-gradient(to right, #ffffff 50%, #ffea00 50%);

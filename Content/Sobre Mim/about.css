@@ -2,16 +2,30 @@
 
 
 body {
-    font-family: "Jersey 15", sans-serif;
+    font-family: "Jersey", sans-serif;
     font-size: 24px;
     background-color: hsl(0, 0%, 0%);
     text-align: center;
-    color: rgb(55, 132, 0);
 }
 
 hr {
     max-width: 60%; /* Defina a largura máxima desejada */
     margin: 0 auto;
+}
+
+/*Fontes*/
+
+.Jersey {
+    font-family: 'Jersey';
+    font: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jersey';
+    src: url('Fonts/Jersey15-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
 }
 
 li {

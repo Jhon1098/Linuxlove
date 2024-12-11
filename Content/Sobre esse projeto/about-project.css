@@ -28,11 +28,22 @@ iframe {
     border-radius: 20px;
 }
 
-.jersey-15-regular {
-    font-family: "Jersey 15", sans-serif;
+/*Fontes*/
+
+.Jersey {
+    font-family: 'Jersey';
+    font: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jersey';
+    src: url('Fonts/Jersey15-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
-  }
+}
+
+/*_____________________________*/
 
 .hidden {
     display: none;

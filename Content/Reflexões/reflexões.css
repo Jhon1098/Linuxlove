@@ -1,28 +1,29 @@
 /* estilos.css */
 
-
+/*Padrão*/
 body {
     font-family: "Jersey", sans-serif;
     font-size: 24px;
-    background-color: hsl(0, 0%, 0%);
+    background-color: rgb(18, 18, 18);
     text-align: center;
-    color: rgb(55, 132, 0);
     margin-left: 10%;
     margin-right: 10%;
 }
 
-
 hr {
     max-width: 60%; /* Defina a largura máxima desejada */
     margin: 0 auto;
+    color: rgb(190, 183, 173);
 }
 
 p {
     font-size: 20px;
-    background: linear-gradient(to right, #ffffff 50%, #ffea00 50%);
+    background: rgb(230, 230, 230);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+/*_____________________________*/
+
 
 /*Fontes*/
 
@@ -41,8 +42,17 @@ p {
 
 /*_____________________________*/
 
+
+/*Customização*/
 .cores {
     background: linear-gradient(to right, #ffffff 50%, #ffea00 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
 }
+
+.cor_text-h1 {
+    background-color: rgb(230, 230, 230);
+    color: rgb(18, 18, 18);
+}
+
+/*_____________________________*/

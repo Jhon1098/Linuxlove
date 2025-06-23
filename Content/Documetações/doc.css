@@ -1,11 +1,14 @@
 /* estilos.css */
 
+/*Padrão*/
 body {
     font-family: 'Jersey', sans-serif;
     font-size: 20px;
-    background-color: #000000;
+    background-color: rgb(18, 18, 18);
     text-align: center;
-    color: rgb(255,234,0);
+    color: rgb(190, 183, 173)
+;
+
 }
 
 li {
@@ -27,6 +30,8 @@ p {
 img {
     border-radius: 16px;
 }
+/*_____________________________*/
+
 
 /*Fontes*/
 
@@ -45,8 +50,11 @@ img {
 
 /*_____________________________*/
 
+
+/*Customização*/
 .red_asterisco {
-    color: red;
+    color: rgb(190, 183, 173)
+;
 }
 
 .cores {
@@ -54,3 +62,14 @@ img {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
 }
+
+.cor_text-h1 {
+    background-color: rgb(230, 230, 230);
+    color: rgb(18, 18, 18);
+}
+
+.cor_text {
+    color: rgb(230, 230, 230);
+}
+
+/*_____________________________*/

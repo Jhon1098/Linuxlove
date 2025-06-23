@@ -1,5 +1,21 @@
 /* estilos.css */
 
+/*Fontes*/
+.Jersey {
+    font-family: 'Jersey';
+    font: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Jersey';
+    src: url('Fonts/Jersey15-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*_____________________________*/
+
 
 /*Padrão*/
 body {
@@ -53,23 +69,6 @@ iframe {
 .P_menor {
     font-family: 'Jersey';
     font-size: 15px;
-}
-
-/*_____________________________*/
-
-
-/*Fontes*/
-.Jersey {
-    font-family: 'Jersey';
-    font: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Jersey';
-    src: url('Fonts/Jersey15-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
 }
 
 /*_____________________________*/

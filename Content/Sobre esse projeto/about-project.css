@@ -1,16 +1,14 @@
 /* estilos.css */
 
-
+/*Padrão*/
 body {
     font-family: "Jersey", sans-serif;
     font-size: 24px;
-    background-color: hsl(0, 0%, 0%);
+    background-color: rgb(18, 18, 18);
     text-align: center;
-    color: rgb(55, 132, 0);
     margin-left: 8%;
     margin-right: 8%;
 }
-
 
 hr {
     max-width: 60%; /* Defina a largura máxima desejada */
@@ -19,7 +17,7 @@ hr {
 
 p {
     font-size: 20px;
-    background: linear-gradient(to right, #ffffff 50%, #ffea00 50%);
+    background: rgb(230, 230, 230);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -27,6 +25,8 @@ iframe {
     background-color: rgba(255, 255, 255, 0.397);
     border-radius: 20px;
 }
+/*_____________________________*/
+
 
 /*Fontes*/
 
@@ -45,12 +45,21 @@ iframe {
 
 /*_____________________________*/
 
-.hidden {
-    display: none;
-}
 
+/*Customização*/
 .cores {
     background: linear-gradient(to right, #ffffff 50%, #ffea00 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
 }
+
+.cor_text-h1 {
+    background-color: rgb(230, 230, 230);
+    color: rgb(18, 18, 18);
+}
+
+.hidden {
+    display: none;
+}
+
+/*_____________________________*/

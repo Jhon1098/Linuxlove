@@ -1,25 +1,64 @@
 /* estilos.css */
 
+
+/*Padrão*/
 body {
     font-family: 'Jersey', sans-serif;
     font-size: 20px;
-    background-color: hsl(0, 0%, 0%);
+    background-color:  rgb(18, 18, 18);
     text-align: center;
 }
 
+hr {
+    max-width: 60%; /* Defina a largura máxima desejada */
+    margin: 0 auto;
+}
+
+
+p {
+    background-color: rgb(230, 230, 230);
+    font-family: 'Jersey';
+    font-size: 20px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1 {
+    color: rgb(190, 183, 173);
+}
+
+hr {
+    color: rgb(190, 183, 173);
+}
+
+a {
+    color: rgb(190, 183, 173);
+}
+
+iframe {
+    background-color: rgba(255, 255, 255, 0.397);
+    border-radius: 20px;
+}
+
+/*_____________________________*/
+
+
+/*Customizações*/
 .cores {
     background: linear-gradient(to right, #ffffff 50%, #ffea00 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
 }
 
-.pmenor {
+.P_menor {
     font-family: 'Jersey';
-    font-size: 8;
+    font-size: 15px;
 }
 
-/*Fontes*/
+/*_____________________________*/
 
+
+/*Fontes*/
 .Jersey {
     font-family: 'Jersey';
     font: 400;
@@ -35,32 +74,6 @@ body {
 
 /*_____________________________*/
 
-/*Customizações*/
-.P_menor {
-    font-family: 'Jersey';
-    font-size: 15px;
-}
-
-/*_____________________________*/
-
-hr {
-    max-width: 60%; /* Defina a largura máxima desejada */
-    margin: 0 auto;
-}
-
-p {
-    font-family: 'Jersey';
-    font-size: 20px;
-    background: linear-gradient(to right, #ffffff 50%, #ffea00 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-
-iframe {
-    background-color: rgba(255, 255, 255, 0.397);
-    border-radius: 20px;
-}
 
 /*---------TUX---------*/
 .container {
@@ -81,10 +94,10 @@ iframe {
 }
 
 .fala-tux {
-    color: white;
+    color: rgb(190, 183, 173);
     max-width: 220px;
     height: 15px;  
-    border: 3px solid #ffffff; /* Borda ao redor do balão */ 
+    border: 3px solid rgb(190, 183, 173); /* Borda ao redor do balão */ 
     border-radius: 10px 10px 10px 0; /* Cantos arredondados */  
     padding: 2px 5px 15px 5px; /* Aumenta o espaço interno */ 
     width: 300px; /* Ajuste o tamanho conforme necessário */
@@ -98,9 +111,42 @@ iframe {
     left: 3px; /* Ajuste a posição para ficar mais perto do balão */
     border-width: 10px; /* Tamanho do triângulo */
     border-style: solid;
-    border-color: transparent transparent #ffffff transparent; /* Cores do triângulo */
+    border-color: transparent transparent rgb(190, 183, 173) transparent; /* Cores do triângulo */
     margin-left: 0; /* Remove ajuste */
     transform: rotate(135deg) translateY(+20px) ; /* Rotaciona para apontar para o canto inferior esquerdo */
 }
 /*_______________________________*/
 
+
+/*Testes*/
+/*
+.body_test {
+    font-family: 'Jersey', sans-serif;
+    font-size: 20px;
+    background-color:  rgb(18, 18, 18);
+    text-align: center;
+}
+
+p {
+    background-color: rgb(230, 230, 230);
+    font-family: 'Jersey';
+    font-size: 20px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.h1_test {
+    color: rgb(190, 183, 173);
+}
+
+hr {
+    color: rgb(190, 183, 173);
+}
+
+a {
+    color: rgb(190, 183, 173);
+}
+
+*/
+
+/*_____________________________*/

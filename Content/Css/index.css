@@ -13,6 +13,11 @@ body {
     -webkit-text-fill-color: transparent
 }
 
+.pmenor {
+    font-family: 'Jersey';
+    font-size: 8;
+}
+
 /*Fontes*/
 
 .Jersey {
@@ -30,6 +35,14 @@ body {
 
 /*_____________________________*/
 
+/*Customizações*/
+.P_menor {
+    font-family: 'Jersey';
+    font-size: 15px;
+}
+
+/*_____________________________*/
+
 hr {
     max-width: 60%; /* Defina a largura máxima desejada */
     margin: 0 auto;
@@ -43,10 +56,6 @@ p {
     -webkit-text-fill-color: transparent;
 }
 
-.P-Menor {
-    font-family: 'Jersey';
-    font-size: 12;
-}
 
 iframe {
     background-color: rgba(255, 255, 255, 0.397);

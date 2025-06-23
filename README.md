@@ -1,4 +1,4 @@
-# Linux Love 🎉
+# LinuxLove 🎉
 
 Um projetinho para compartilhar conhecimento, estudos e experiências com todos aqueles que estiverem interessados.
 

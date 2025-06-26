@@ -143,10 +143,7 @@ Após ter conseguindo fazer os containers rodarem:
 
 Se tudo ocorre como deveria, agora você tem um servidor de Minecraft para poder jogar da onde você quiser. 🎉 
 
-Para poder jogar com seus amigos é só compartilhar a conexão do Tailscale com eles. Tanto passando sua conta para eles (Método não tão seguro) ou adicionar eles por meio dos conviter da Tailscale (Mais seguro), na opção "User" e "Invite users", enviando o convite via e-mail ou por um link. Para eles se conectarem por meio desse link basta eles também terem uma conta no Tailscale. Esse método depende de qual plano do Tailscale você usa, se for o plano grátis você só pode adicionar até três contas, a partir do plano "Starter" você tem usuários ilimitado.
-
-*Atualização:
-Você também pode usar as chaves de acesso para que outros jogadores acessem sua rede Tailscale sem precisar passar sua conta para eles. Usando o mesmo método que nós usamos para colocar a chave de autênticação "Tskey" no arquivo Docker-Compose do tailscale.
+Para poder jogar com seus amigos é só compartilhar a conexão do Tailscale com eles. Você pode usar as chaves de acesso para que outros jogadores acessem sua rede Tailscale sem precisar passar sua conta para eles. Usando o mesmo método que nós usamos para colocar a chave de autênticação "Tskey" no arquivo Docker-Compose do tailscale.
 
 ___
 

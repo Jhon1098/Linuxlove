@@ -11,11 +11,11 @@ Se você ainda não tiver uma, crie uma conta gratuita no [Github](github.com).
 
 Faça login no GitHub e clique no botão "New" (Novo) para criar um novo repositório.
 
-![Gitpages_1](Imagens/Gitpages_1.png)
+![Gitpages_1](/Imagens/Gitpages_1.png)
 
 Nomeie o repositório, por exemplo "Meu site". Marque a opção "Initialize this repository with a README" (Inicializar este repositório com um README) e deixe como Public (público).
 
-![Gitpages_2](Imagens/Gitpages_2.png)
+![Gitpages_2](/Imagens/Gitpages_2.png)
 
 ### 3. Clone o Repositório para o seu Computador:
 
@@ -45,13 +45,13 @@ Ou se preferir pode usar o [Github Desktop](https://desktop.github.com/).
 
 ### 6. Ative o GitHub Pages:
 
-No repositório do GitHub, vá para as configurações e role para baixo até encontrar a seção "Pages". ![GitPages_3](Imagens/Gitpages_3.png)
+No repositório do GitHub, vá para as configurações e role para baixo até encontrar a seção "Pages". ![GitPages_3](/Imagens/Gitpages_3.png)
 
-![Gitpages_4](Imagens/Gitpages_4.png)
+![Gitpages_4](/Imagens/Gitpages_4.png)
 
  No menu suspenso "Source" (Origem), selecione "master branch" (ramo master). Isso indicará ao GitHub Pages que deve servir o conteúdo do seu site a partir do ramo master do seu repositório.
 
- ![Gitpages_5](Imagens/Gitpages_5.png)
+ ![Gitpages_5](/Imagens/Gitpages_5.png)
 
 ### 7. Acesse seu Site:
 
@@ -79,7 +79,7 @@ Crie um registro CNAME apontando o seu domínio personalizado para <seu_nome_de_
 
 Se você for usar o Duckdns, basta adicionar o Ip do github no lugar de "ip address":
 
-![Gitpages_6](Imagens/Gitpages_6.png)
+![Gitpages_6](/Imagens/Gitpages_6.png)
 
 Lista de ips [aqui](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 
